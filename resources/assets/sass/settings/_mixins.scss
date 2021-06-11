@@ -1,0 +1,9 @@
+/* Site Colors */
+
+/* Fonts */
+@mixin textFont($size, $color, $weight) {
+  font-family: "Text Font", sans-serif;
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
